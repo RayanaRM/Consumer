@@ -11,7 +11,7 @@ WORKDIR /app
 RUN pip install -r requirements.txt
  
 # Exponha a porta em que a aplicação vai rodar
-EXPOSE 80
+EXPOSE 90
 
 # Comando para iniciar a aplicação quando o container for iniciado
 CMD ["python", "app.py"]
